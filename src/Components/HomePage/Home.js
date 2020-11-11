@@ -90,8 +90,6 @@ class Home extends Component {
     window.addEventListener(
       "scroll",
       function () {
-        // var st = window.pageYOffset || document.documentElement.scrollTop;
-        // console.log(window.pageYOffset);
         if (parseInt(window.pageYOffset) > 950) {
           window.is_nav = true;
         } else {
