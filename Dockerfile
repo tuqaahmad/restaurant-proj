@@ -1,4 +1,4 @@
-FROM node:latest as builder
+FROM node:8.10.0 as builder
 WORKDIR /app
 COPY package.json ./app
 RUN npm install
