@@ -26,7 +26,7 @@ class Login extends Component {
 
     axios
       .post(
-        `http://localhost:4000/login`,
+        `http://18.223.44.124:4000/login`,
         {
           email: this.state.email,
           password: this.state.password,
