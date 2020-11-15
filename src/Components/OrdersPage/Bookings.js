@@ -11,7 +11,7 @@ class Bookings extends Component {
   };
 
   componentDidMount() {
-    axios.get(`http://18.223.44.124:4000/bookings`).then((res) => {
+    axios.get(`https://3a2fc74d7907.ngrok.io/bookings`).then((res) => {
       // console.log(res.data);
       const books = res.data;
       this.setState({ books });

@@ -11,7 +11,7 @@ class Customers extends Component {
   };
 
   componentDidMount() {
-    axios.get(`http://18.223.44.124:4000/customers`).then((res) => {
+    axios.get(`https://3a2fc74d7907.ngrok.io/customers`).then((res) => {
       // console.log(res.data);
       const customers = res.data;
       this.setState({ customers });

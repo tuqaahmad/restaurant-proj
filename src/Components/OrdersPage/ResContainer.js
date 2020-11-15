@@ -72,7 +72,7 @@ class ResContainer extends Component {
     if (localStorage.getItem("user") != null) {
       axios
         .post(
-          `http://18.223.44.124:4000/bookings`,
+          `https://3a2fc74d7907.ngrok.io/bookings`,
           {
             diners: this.state.diners,
             service: this.state.service,
@@ -107,7 +107,7 @@ class ResContainer extends Component {
     if (localStorage.getItem("user") != null) {
       axios
         .post(
-          `http://18.223.44.124:4000/delivery`,
+          `https://3a2fc74d7907.ngrok.io/delivery`,
           {
             date: this.state.date,
             time: this.state.time,

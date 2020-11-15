@@ -27,7 +27,7 @@ class Register extends Component {
 
     axios
       .post(
-        `http://18.223.44.124:4000/signup`,
+        `https://3a2fc74d7907.ngrok.io/signup`,
         {
           email: this.state.email,
           number: this.state.number,
